@@ -5,7 +5,7 @@ html {
 
 body {
     padding: 10px;
-    background-image: linear-gradient(#5DA4D9, #FFF);
+    background-image: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 #emoji-container {
@@ -19,7 +19,7 @@ body {
 }
 
 #push-btn,#unshift-btn {
-    background-color: #80D87F;
+    background-color: #26ca23;
 }
 
 #shift-btn,#pop-btn {
@@ -57,5 +57,13 @@ button {
     display: flex;
     justify-content: center;
     margin: 10px 0 40px;
+}
+
+.text-container {
+    text-align: center;
+}
+
+#side-text {
+    font-size: 26;
 }
 
